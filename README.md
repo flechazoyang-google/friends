@@ -31,7 +31,7 @@
   "title": "妄司逸",
   "url": "https://blog.flechazo.icu",
   "icon": "https://blog.flechazo.icu/images/avatar.jpg",
-  "snapshot": "",
+  "snapshot": "https://blog.flechazo.icu/images/snapshot/snapshot.png",
   "description": "不息",
   "feed": "https://blog.flechazo.icu/atom.xml"
 }
