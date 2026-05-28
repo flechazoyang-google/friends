@@ -46,6 +46,9 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+      - name: Restore CNAME
+        run: |
+          echo "friends.flechazo.icu" > CNAME
       - name: Commit and Push to output branch
         run: |
           git fetch origin output || true
