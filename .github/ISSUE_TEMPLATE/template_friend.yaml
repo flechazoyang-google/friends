@@ -52,8 +52,6 @@ body:
       label: 友链地址
       description: 请输入您的友链页面地址，用于人工审核和 GitHub Actions 自动检测。（不必提前添加本站为友链，审核通过后再添加也不迟。）
       placeholder: "如: https://blog.flechazo.icu/friends/"
-    validations:
-      required: true
   - type: input
     id: friends-repo
     attributes:
