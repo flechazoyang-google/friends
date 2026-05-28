@@ -38,6 +38,8 @@ jobs:
         run: |
           git fetch origin output || true
           git checkout -B output
+          # 恢复 CNAME 文件（防止自定义域名丢失）
+          echo "friends.flechazo.icu" > CNAME
           git add --all
           git commit -m "Update data from issues" || echo "No changes to commit"
           git push -f origin output
